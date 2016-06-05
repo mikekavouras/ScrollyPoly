@@ -1,0 +1,6 @@
+framework module Pods_ScrollyPolyView_Tests {
+  umbrella header "Pods-ScrollyPolyView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

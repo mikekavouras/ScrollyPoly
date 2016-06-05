@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0468C0ECD99464F008AEE723F97E2F7C /* Pods-ScrollyPolyView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A76775C3EEBF699B2383E541D58CB23C /* Pods-ScrollyPolyView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07D4D27C90A4ADDBA8B73CACD5CAA299 /* Pods-ScrollyPolyView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A5A52EBCA5AB17BAD68E18E1980949 /* Pods-ScrollyPolyView_Tests-dummy.m */; };
+		1074E80F55A43B85A5FABCA88E960972 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		19DB77BE42ACF5608587B330A55D82BB /* Pods-ScrollyPolyView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA62629B25E4E558874B1837C296A0C /* Pods-ScrollyPolyView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C3B78B44CC9763CA2543DC123ACEED4 /* ScrollyPolyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0DE7E11E0E0FE5F2280C9AC37039E /* ScrollyPolyView.swift */; };
+		2E39900C5208BDF3DE444C016614AB0E /* Pods-ScrollyPolyView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C18D44FE56CA87A41F5BA82C46503B /* Pods-ScrollyPolyView_Example-dummy.m */; };
+		41D1A4077119F9D16E21B88055C5BB4C /* ScrollyPolyView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E330BEB74503F8CF67364B6ECBAED0F9 /* ScrollyPolyView-dummy.m */; };
+		44BCC28714BCB671D354A067F82D69D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4E681C03815B58C7C602C03591EEBE12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F84A001F93F7A9A130691DC0F592303C /* ScrollyPolyView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C4C9D793F2C5CCD87C9BE3FD57CAFAA /* ScrollyPolyView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31E1F694762C81CF9BD596C20796A0D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9062C3E0D83752D9BD39E12DE9C3DDBE;
+			remoteInfo = ScrollyPolyView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C4C9D793F2C5CCD87C9BE3FD57CAFAA /* ScrollyPolyView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollyPolyView-umbrella.h"; sourceTree = "<group>"; };
+		0DF57A2565E9C35278E3E55ACF214FB1 /* Pods-ScrollyPolyView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollyPolyView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		136E29ED8E4D4ECD173096B29A4E8C97 /* Pods-ScrollyPolyView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollyPolyView_Tests-resources.sh"; sourceTree = "<group>"; };
+		1D14192AFD45A903BC7B7E0F980A9712 /* Pods-ScrollyPolyView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollyPolyView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		253C051D7E327C955A820B9D5E3C280D /* ScrollyPolyView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ScrollyPolyView.modulemap; sourceTree = "<group>"; };
+		30D0DE7E11E0E0FE5F2280C9AC37039E /* ScrollyPolyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScrollyPolyView.swift; sourceTree = "<group>"; };
+		3569F86804EBBC73A52E55FADEE46ACE /* Pods-ScrollyPolyView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollyPolyView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35C18D44FE56CA87A41F5BA82C46503B /* Pods-ScrollyPolyView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollyPolyView_Example-dummy.m"; sourceTree = "<group>"; };
+		35F824175E786F1E57E0ACF3698BC5F5 /* Pods-ScrollyPolyView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollyPolyView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3FBE51DA9EE3E42446A32DAB6B6D93A8 /* Pods-ScrollyPolyView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollyPolyView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4407602195A3AFCECF8A0A849C5F30BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A10A5AE3E86E51B03F984284CF185C5 /* Pods-ScrollyPolyView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollyPolyView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A35E2EB3C6F923622B6CC3B9E55AA84 /* Pods-ScrollyPolyView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollyPolyView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4C4BD93D67295495534C2ACB9D441542 /* ScrollyPolyView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScrollyPolyView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC62954D1DBD4FB8DFBA8C2F222FE85 /* Pods-ScrollyPolyView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ScrollyPolyView_Tests.modulemap"; sourceTree = "<group>"; };
+		517708A6C8E160DD777433C3E3F9B8BE /* Pods_ScrollyPolyView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollyPolyView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		524E097A79DB53BE7E32BF6BB12A5626 /* Pods-ScrollyPolyView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollyPolyView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		66A5A52EBCA5AB17BAD68E18E1980949 /* Pods-ScrollyPolyView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollyPolyView_Tests-dummy.m"; sourceTree = "<group>"; };
+		73F67A5E7D37B4D59FD493CAB19209E9 /* ScrollyPolyView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollyPolyView-prefix.pch"; sourceTree = "<group>"; };
+		745A722D01E3AC40F5A9D34158041DA8 /* Pods-ScrollyPolyView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollyPolyView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8BA62629B25E4E558874B1837C296A0C /* Pods-ScrollyPolyView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScrollyPolyView_Example-umbrella.h"; sourceTree = "<group>"; };
+		8EBBFF903AECA181A2EC0DA3C9BCCB46 /* Pods-ScrollyPolyView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ScrollyPolyView_Example.modulemap"; sourceTree = "<group>"; };
+		91848D6453E42812FF6BE08655BA61ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EAE854A4FDA989649860C57A1752D66 /* Pods_ScrollyPolyView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollyPolyView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76775C3EEBF699B2383E541D58CB23C /* Pods-ScrollyPolyView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScrollyPolyView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BCC02504CADB6F4056E35DC36C6D9CB0 /* Pods-ScrollyPolyView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollyPolyView_Example-resources.sh"; sourceTree = "<group>"; };
+		CABD479E14A684FE4DE792964989F4FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7750C2D79379669A68E291E30E3833F /* ScrollyPolyView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollyPolyView.xcconfig; sourceTree = "<group>"; };
+		DBCED1542C23B5AA02510D0DD84CA885 /* Pods-ScrollyPolyView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollyPolyView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E330BEB74503F8CF67364B6ECBAED0F9 /* ScrollyPolyView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollyPolyView-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1E24922E7341B10D98F6EDB9C2B0AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E681C03815B58C7C602C03591EEBE12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F0721430A2310BA3D9EBB6D0B78BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44BCC28714BCB671D354A067F82D69D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE16ACB5BA838DF47159ADDA33B16F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1074E80F55A43B85A5FABCA88E960972 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A5F775DE9BF8C37F9A684DEEC43F5E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				30D0DE7E11E0E0FE5F2280C9AC37039E /* ScrollyPolyView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0C8CEBBEB27783A6E3BADB5EDAC7DFC6 /* ScrollyPolyView */ = {
+			isa = PBXGroup;
+			children = (
+				C544B2F4B288195FCE039E83D4C9AE08 /* ScrollyPolyView */,
+				5085BF591B28D0F45987B316883748ED /* Support Files */,
+			);
+			name = ScrollyPolyView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5085BF591B28D0F45987B316883748ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4407602195A3AFCECF8A0A849C5F30BC /* Info.plist */,
+				253C051D7E327C955A820B9D5E3C280D /* ScrollyPolyView.modulemap */,
+				D7750C2D79379669A68E291E30E3833F /* ScrollyPolyView.xcconfig */,
+				E330BEB74503F8CF67364B6ECBAED0F9 /* ScrollyPolyView-dummy.m */,
+				73F67A5E7D37B4D59FD493CAB19209E9 /* ScrollyPolyView-prefix.pch */,
+				0C4C9D793F2C5CCD87C9BE3FD57CAFAA /* ScrollyPolyView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ScrollyPolyView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EACCACC96F14AFF5E0AF08F8A9EE61AD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7F54662E5C1C06848296999FFF7DF29F /* Products */,
+				8A0EEA4B9BBBFEE934B7DD93FC5DB8A4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F54662E5C1C06848296999FFF7DF29F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EAE854A4FDA989649860C57A1752D66 /* Pods_ScrollyPolyView_Example.framework */,
+				517708A6C8E160DD777433C3E3F9B8BE /* Pods_ScrollyPolyView_Tests.framework */,
+				4C4BD93D67295495534C2ACB9D441542 /* ScrollyPolyView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8736A47E261837F0DA9C384D006E235F /* Pods-ScrollyPolyView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				91848D6453E42812FF6BE08655BA61ED /* Info.plist */,
+				8EBBFF903AECA181A2EC0DA3C9BCCB46 /* Pods-ScrollyPolyView_Example.modulemap */,
+				3569F86804EBBC73A52E55FADEE46ACE /* Pods-ScrollyPolyView_Example-acknowledgements.markdown */,
+				35F824175E786F1E57E0ACF3698BC5F5 /* Pods-ScrollyPolyView_Example-acknowledgements.plist */,
+				35C18D44FE56CA87A41F5BA82C46503B /* Pods-ScrollyPolyView_Example-dummy.m */,
+				4A35E2EB3C6F923622B6CC3B9E55AA84 /* Pods-ScrollyPolyView_Example-frameworks.sh */,
+				BCC02504CADB6F4056E35DC36C6D9CB0 /* Pods-ScrollyPolyView_Example-resources.sh */,
+				8BA62629B25E4E558874B1837C296A0C /* Pods-ScrollyPolyView_Example-umbrella.h */,
+				3FBE51DA9EE3E42446A32DAB6B6D93A8 /* Pods-ScrollyPolyView_Example.debug.xcconfig */,
+				1D14192AFD45A903BC7B7E0F980A9712 /* Pods-ScrollyPolyView_Example.release.xcconfig */,
+			);
+			name = "Pods-ScrollyPolyView_Example";
+			path = "Target Support Files/Pods-ScrollyPolyView_Example";
+			sourceTree = "<group>";
+		};
+		8A0EEA4B9BBBFEE934B7DD93FC5DB8A4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8736A47E261837F0DA9C384D006E235F /* Pods-ScrollyPolyView_Example */,
+				CC35466CCE6B30DD72716B8B641E0BD6 /* Pods-ScrollyPolyView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C544B2F4B288195FCE039E83D4C9AE08 /* ScrollyPolyView */ = {
+			isa = PBXGroup;
+			children = (
+				07A5F775DE9BF8C37F9A684DEEC43F5E /* Classes */,
+			);
+			path = ScrollyPolyView;
+			sourceTree = "<group>";
+		};
+		CC35466CCE6B30DD72716B8B641E0BD6 /* Pods-ScrollyPolyView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CABD479E14A684FE4DE792964989F4FF /* Info.plist */,
+				4EC62954D1DBD4FB8DFBA8C2F222FE85 /* Pods-ScrollyPolyView_Tests.modulemap */,
+				745A722D01E3AC40F5A9D34158041DA8 /* Pods-ScrollyPolyView_Tests-acknowledgements.markdown */,
+				0DF57A2565E9C35278E3E55ACF214FB1 /* Pods-ScrollyPolyView_Tests-acknowledgements.plist */,
+				66A5A52EBCA5AB17BAD68E18E1980949 /* Pods-ScrollyPolyView_Tests-dummy.m */,
+				DBCED1542C23B5AA02510D0DD84CA885 /* Pods-ScrollyPolyView_Tests-frameworks.sh */,
+				136E29ED8E4D4ECD173096B29A4E8C97 /* Pods-ScrollyPolyView_Tests-resources.sh */,
+				A76775C3EEBF699B2383E541D58CB23C /* Pods-ScrollyPolyView_Tests-umbrella.h */,
+				4A10A5AE3E86E51B03F984284CF185C5 /* Pods-ScrollyPolyView_Tests.debug.xcconfig */,
+				524E097A79DB53BE7E32BF6BB12A5626 /* Pods-ScrollyPolyView_Tests.release.xcconfig */,
+			);
+			name = "Pods-ScrollyPolyView_Tests";
+			path = "Target Support Files/Pods-ScrollyPolyView_Tests";
+			sourceTree = "<group>";
+		};
+		EACCACC96F14AFF5E0AF08F8A9EE61AD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C8CEBBEB27783A6E3BADB5EDAC7DFC6 /* ScrollyPolyView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A4FBB1DE2AF954B01AF802F21E132C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DB77BE42ACF5608587B330A55D82BB /* Pods-ScrollyPolyView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92685CC703013307A807B688BA149A97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84A001F93F7A9A130691DC0F592303C /* ScrollyPolyView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEEF98BDAA45336CE4167E43CB93EE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0468C0ECD99464F008AEE723F97E2F7C /* Pods-ScrollyPolyView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9062C3E0D83752D9BD39E12DE9C3DDBE /* ScrollyPolyView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E11FB1CF457144BE356E3BAD574FC2 /* Build configuration list for PBXNativeTarget "ScrollyPolyView" */;
+			buildPhases = (
+				225B1641CFC620832344F31C30606AED /* Sources */,
+				EE16ACB5BA838DF47159ADDA33B16F95 /* Frameworks */,
+				92685CC703013307A807B688BA149A97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollyPolyView;
+			productName = ScrollyPolyView;
+			productReference = 4C4BD93D67295495534C2ACB9D441542 /* ScrollyPolyView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8E7D6E80FDBE1EBF843BF118D6D72DA /* Pods-ScrollyPolyView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F4CBA1CF0FF5537B615A8634C6D1A1 /* Build configuration list for PBXNativeTarget "Pods-ScrollyPolyView_Example" */;
+			buildPhases = (
+				D1D9E1A67BE2237027A0B2012D42FE77 /* Sources */,
+				E4F0721430A2310BA3D9EBB6D0B78BF5 /* Frameworks */,
+				2A4FBB1DE2AF954B01AF802F21E132C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FD2009435D67AFB0BFC7BFE686872C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-ScrollyPolyView_Example";
+			productName = "Pods-ScrollyPolyView_Example";
+			productReference = 9EAE854A4FDA989649860C57A1752D66 /* Pods_ScrollyPolyView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1A9AEF33E1F144B49D01C78581BD828 /* Pods-ScrollyPolyView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D5FE98BB7EBB1E5A80740DFDF615FE /* Build configuration list for PBXNativeTarget "Pods-ScrollyPolyView_Tests" */;
+			buildPhases = (
+				9A44EBE931562FD2587D54B0E9C10220 /* Sources */,
+				B1E24922E7341B10D98F6EDB9C2B0AD1 /* Frameworks */,
+				FEEEF98BDAA45336CE4167E43CB93EE1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ScrollyPolyView_Tests";
+			productName = "Pods-ScrollyPolyView_Tests";
+			productReference = 517708A6C8E160DD777433C3E3F9B8BE /* Pods_ScrollyPolyView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7F54662E5C1C06848296999FFF7DF29F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8E7D6E80FDBE1EBF843BF118D6D72DA /* Pods-ScrollyPolyView_Example */,
+				D1A9AEF33E1F144B49D01C78581BD828 /* Pods-ScrollyPolyView_Tests */,
+				9062C3E0D83752D9BD39E12DE9C3DDBE /* ScrollyPolyView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		225B1641CFC620832344F31C30606AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D1A4077119F9D16E21B88055C5BB4C /* ScrollyPolyView-dummy.m in Sources */,
+				1C3B78B44CC9763CA2543DC123ACEED4 /* ScrollyPolyView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A44EBE931562FD2587D54B0E9C10220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D4D27C90A4ADDBA8B73CACD5CAA299 /* Pods-ScrollyPolyView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D9E1A67BE2237027A0B2012D42FE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E39900C5208BDF3DE444C016614AB0E /* Pods-ScrollyPolyView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FD2009435D67AFB0BFC7BFE686872C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScrollyPolyView;
+			target = 9062C3E0D83752D9BD39E12DE9C3DDBE /* ScrollyPolyView */;
+			targetProxy = 31E1F694762C81CF9BD596C20796A0D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		018D4A3B2A6BB8FD55259CCD338C1C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FBE51DA9EE3E42446A32DAB6B6D93A8 /* Pods-ScrollyPolyView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScrollyPolyView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScrollyPolyView_Example/Pods-ScrollyPolyView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScrollyPolyView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FDBB4068A075A8B242F7E394C34F6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7750C2D79379669A68E291E30E3833F /* ScrollyPolyView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollyPolyView/ScrollyPolyView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollyPolyView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollyPolyView/ScrollyPolyView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ScrollyPolyView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		11EBBBB7F2B2A4B5D890BFFC933013EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A10A5AE3E86E51B03F984284CF185C5 /* Pods-ScrollyPolyView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScrollyPolyView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScrollyPolyView_Tests/Pods-ScrollyPolyView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScrollyPolyView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		448C1E1F355AFBFAD5BA513FC1BCEDEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524E097A79DB53BE7E32BF6BB12A5626 /* Pods-ScrollyPolyView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScrollyPolyView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScrollyPolyView_Tests/Pods-ScrollyPolyView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScrollyPolyView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A10F7530104FFF02A3F4F01DAB1BD6F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7750C2D79379669A68E291E30E3833F /* ScrollyPolyView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollyPolyView/ScrollyPolyView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollyPolyView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollyPolyView/ScrollyPolyView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ScrollyPolyView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A547F460A9A56A7988E61CFDC43B28C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D14192AFD45A903BC7B7E0F980A9712 /* Pods-ScrollyPolyView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScrollyPolyView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScrollyPolyView_Example/Pods-ScrollyPolyView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScrollyPolyView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01E11FB1CF457144BE356E3BAD574FC2 /* Build configuration list for PBXNativeTarget "ScrollyPolyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10F7530104FFF02A3F4F01DAB1BD6F6 /* Debug */,
+				0FDBB4068A075A8B242F7E394C34F6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78D5FE98BB7EBB1E5A80740DFDF615FE /* Build configuration list for PBXNativeTarget "Pods-ScrollyPolyView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EBBBB7F2B2A4B5D890BFFC933013EB /* Debug */,
+				448C1E1F355AFBFAD5BA513FC1BCEDEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97F4CBA1CF0FF5537B615A8634C6D1A1 /* Build configuration list for PBXNativeTarget "Pods-ScrollyPolyView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018D4A3B2A6BB8FD55259CCD338C1C7F /* Debug */,
+				A547F460A9A56A7988E61CFDC43B28C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
