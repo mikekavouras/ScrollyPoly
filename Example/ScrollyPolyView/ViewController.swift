@@ -7,18 +7,30 @@
 //
 
 import UIKit
+import ScrollyPolyView
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var scrollView: ScrollyPolyView!
+    @IBOutlet weak var imageView: UIImageView!
+    
+    lazy var masks: [UIImageView] = {
+        let images = [UIImage(named: "cat")!, UIImage(named:"circle")!, UIImage(named: "heart")!]
+        let imageViews = images.map({ (image: UIImage) -> UIImageView in
+            let imageView = UIImageView(image: image)
+            imageView.contentMode = .Center
+            return imageView
+        })
+        return imageViews
+    }()
 
+    
     override func viewDidLoad() {
+        scrollView.masks = masks
+        imageView.layer.mask = scrollView.scrollLayer
+        
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
 }
 

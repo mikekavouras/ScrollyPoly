@@ -1,0 +1,16 @@
+PODS:
+  - ScrollyPolyView (0.1.0)
+
+DEPENDENCIES:
+  - ScrollyPolyView (from `../`)
+
+EXTERNAL SOURCES:
+  ScrollyPolyView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ScrollyPolyView: 18c8c6b711a471e010819f65b17169dc7e1ca807
+
+PODFILE CHECKSUM: 7c95797eb589d6a5fc5bc3fb238283f20a26d376
+
+COCOAPODS: 1.0.1
