@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ScrollyPolyView_Example' do
+  pod 'ScrollyPolyView', :path => '../'
+
+  target 'ScrollyPolyView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
