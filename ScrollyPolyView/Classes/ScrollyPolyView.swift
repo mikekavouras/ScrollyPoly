@@ -15,10 +15,14 @@ public class ScrollyPolyView: UIView, UIScrollViewDelegate {
             resetMasks()
         }
     }
+    public let scrollLayer = CAScrollLayer()
+    public var offset: CGPoint {
+        return scrollView.contentOffset
+    }
 
     private let scrollView = UIScrollView()
     private let scrollLayerContainer = UIView()
-    public let scrollLayer = CAScrollLayer()
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
