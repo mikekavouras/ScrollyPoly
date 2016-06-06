@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ScrollyPolyView'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'A UIView subclass for scrollable masks'
 
 # This description is used to generate tags and improve search results.
