@@ -19,9 +19,31 @@ it, simply add the following line to your Podfile:
 pod "ScrollyPolyView"
 ```
 
+## Usage
+
+```swift
+@IBOutlet weak var scrollView: ScrollyPolyView!
+@IBOutlet weak var imageView: UIImageView! // the view your masking
+
+
+lazy var masks: [UIImageView] = {
+  let images = [UIImage(named: "cat")!, UIImage(named:"circle")!, UIImage(named: "heart")!]
+  let imageViews = images.map { UIImageView(image: $0) }
+  return imageViews
+}()
+
+override func viewDidLoad() {
+  // the important lines
+  scrollView.masks = masks
+  imageView.layer.mask = scrollView.scrollLayer
+    
+  super.viewDidLoad()
+}
+```
+
 ## Author
 
-Mike Kavouras, kavourasm@gmail.com
+Mike Kavouras
 
 ## License
 
