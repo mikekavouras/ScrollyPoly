@@ -40,6 +40,8 @@ public class ScrollyPolyView: UIView, UIScrollViewDelegate {
         
         scrollView.pagingEnabled = true
         scrollView.delegate = self
+        scrollView.showsHorizontalScrollIndicator = false
+        scrollView.showsVerticalScrollIndicator = false
         addSubview(scrollView)
     }
     
