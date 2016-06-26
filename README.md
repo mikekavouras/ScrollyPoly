@@ -24,7 +24,7 @@ pod "ScrollyPolyView"
 
 ```swift
 @IBOutlet weak var scrollView: ScrollyPolyView!
-@IBOutlet weak var imageView: UIImageView! // the view your masking
+@IBOutlet weak var imageView: UIImageView! // the view you're masking
 
 
 lazy var masks: [UIImageView] = {
