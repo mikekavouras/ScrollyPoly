@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         let images = [UIImage(named: "cat")!, UIImage(named:"circle")!, UIImage(named: "heart")!]
         let imageViews = images.map({ (image: UIImage) -> UIImageView in
             let imageView = UIImageView(image: image)
-            imageView.contentMode = .Center
+            imageView.contentMode = .center
             return imageView
         })
         return imageViews

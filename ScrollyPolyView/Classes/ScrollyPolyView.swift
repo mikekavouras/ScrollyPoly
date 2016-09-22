@@ -8,20 +8,20 @@
 
 import UIKit
 
-public class ScrollyPolyView: UIView, UIScrollViewDelegate {
+open class ScrollyPolyView: UIView, UIScrollViewDelegate {
     
-    public var masks: [UIView] = [UIView]() {
+    open var masks: [UIView] = [UIView]() {
         didSet {
             resetMasks()
         }
     }
-    public let scrollLayer = CAScrollLayer()
-    public var offset: CGPoint {
+    open let scrollLayer = CAScrollLayer()
+    open var offset: CGPoint {
         return scrollView.contentOffset
     }
 
-    private let scrollView = UIScrollView()
-    private let scrollLayerContainer = UIView()
+    fileprivate let scrollView = UIScrollView()
+    fileprivate let scrollLayerContainer = UIView()
     
     
     override init(frame: CGRect) {
@@ -34,18 +34,18 @@ public class ScrollyPolyView: UIView, UIScrollViewDelegate {
         setup()
     }
     
-    private func setup() {
+    fileprivate func setup() {
         addSubview(scrollLayerContainer)
         scrollLayerContainer.layer.addSublayer(scrollLayer)
         
-        scrollView.pagingEnabled = true
+        scrollView.isPagingEnabled = true
         scrollView.delegate = self
         scrollView.showsHorizontalScrollIndicator = false
         scrollView.showsVerticalScrollIndicator = false
         addSubview(scrollView)
     }
     
-    override public func layoutSubviews() {
+    override open func layoutSubviews() {
         scrollView.frame = bounds
         scrollView.contentSize = bounds.size
         scrollView.contentSize.width = bounds.size.width * CGFloat(masks.count)
@@ -54,12 +54,12 @@ public class ScrollyPolyView: UIView, UIScrollViewDelegate {
         scrollLayer.frame = bounds
         scrollLayer.frame.size = scrollView.contentSize
         
-        for (idx, subview) in scrollView.subviews.enumerate() {
+        for (idx, subview) in scrollView.subviews.enumerated() {
             subview.frame = bounds
             subview.frame.origin.x = CGFloat(idx) * bounds.size.width
         }
         
-        for (idx, sublayer) in (scrollLayer.sublayers ?? []).enumerate() {
+        for (idx, sublayer) in (scrollLayer.sublayers ?? []).enumerated() {
             sublayer.frame = bounds
             sublayer.frame.origin.x = CGFloat(idx) * bounds.size.width
         }
@@ -67,7 +67,7 @@ public class ScrollyPolyView: UIView, UIScrollViewDelegate {
         super.layoutSubviews()
     }
     
-    private func resetMasks() {
+    fileprivate func resetMasks() {
         for subview in scrollView.subviews {
             subview.removeFromSuperview() // TODO: be more selective
         }
@@ -86,10 +86,10 @@ public class ScrollyPolyView: UIView, UIScrollViewDelegate {
     
     // MARK: UIScrollViewDelegate
     
-    public func scrollViewDidScroll(scrollView: UIScrollView) {
+    open func scrollViewDidScroll(_ scrollView: UIScrollView) {
         CATransaction.begin()
         CATransaction.setValue(0.0, forKey: kCATransactionAnimationDuration)
-        scrollLayer.scrollToPoint(scrollView.contentOffset)
+        scrollLayer.scroll(to: scrollView.contentOffset)
         CATransaction.commit()
     }
 }
